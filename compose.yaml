@@ -1,0 +1,9 @@
+services:
+  postgres:
+    image: 'postgres:latest'
+    environment:
+      - 'POSTGRES_DB=scheduler'
+      - 'POSTGRES_PASSWORD=@14dfSFD4532$%%1sdfs'
+      - 'POSTGRES_USER=db_scheduler'
+    ports:
+      - '5432:5432'
